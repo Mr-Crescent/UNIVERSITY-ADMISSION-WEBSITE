@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an application form for Kisii University">
+    <meta name="date" content="09/05/2023">
+    <meta name="author" content="Mr Crescent🌙🌙🌙">
+    <title>Kisii University ADMISSION FORM</title>
+    <link rel="icon" href="./img/ksu-logo.jpg" type="icon/x-axis">
+    <link rel="stylesheet" href="ksu.css">
+</head>
+<body>
+    scanf("%d", &score[3]);
+	/*social studies is the marks the pupil got excluding CRE*/
+	printf("How much did you score in Social Studies\n");
+	scanf("%d", &score[4]);
+	printf("How much did you score in CRE\n");
+	scanf("%d", &score[5]);
+	printf("How much did you score in Insha\n");
+	scanf("%d", &score[6]);
+	printf("How much did you score in Composition\n");
+	scanf("%d", &score[7]);
+	/*composition and english grammer is added to get the total Enlish language marks*/
+	score[8]=score[1]+score[7];
+	printf("Total English and Composition marks is:%d", score[8]);
+	score[9]=score[2]+score[6];
+	/*insha and kiswahili lugha are added to get the total Kiswahili marks*/
+	printf("\nTotal Kiswahili and Insha marks is:%d", score[9]);
+	score[10]=score[4]+score[5];
+</body>
+</html>
